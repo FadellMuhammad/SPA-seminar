@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar img{
+    width: 40px;
+}
+
+.left{
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.right{
+    margin-left: 50vw;
+}
+
+.nav-color{
+    background-color: #3f4850ff;
+}
+
+.nav-color a{
+    color: white;
+}
+
+.nav-tengah{
+    margin: 0px 100px;
+}
+
+.carousel-item img{
+      /* Add the blur effect */
+  /* filter: blur(2px);
+  -webkit-filter: blur(5px); */
+}
+
+.right{
+    float: right;
+}
+
+/* .carousel-caption h1{
+    font-weight: 900;
+} */
+
+/* .teks-2{
+    margin-top: 50px;
+} */
+
+.judul{
+    text-align: center;
+    font-weight: bold;
+}
+
+.teks p{
+    text-align: justify;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.bg{
+    background-color: #3f4850ff;
+    width: 100%;
+    height: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.teks-2{
+    color: white;
+    /* padding-top: 50px; */
+}
+
+.teks-2 h1{
+    color: #f1d51bff;
+}
+
+.tema p{
+    /* padding-bottom: 1px; */
+}
+
+/* KEYNOTE SPEKAER */
+.bg-3{
+    /* background-color: bisque; */
+    width: 100%;
+    height: auto;
+}
+
+.part-3{
+    /* padding-top: 50px; */
+    margin: 0 20px;
+}
+
+.keynote-speaker h1{
+    /* line-height: 200px; */
+    color: #f1d51bff;
+    font-weight: bold;
+    
+}
+
+.speaker li{
+    margin-bottom: 10px;
+}
+
+/* PURPOSE, TARGETS, PARTICIPANT, OUTPUT */
+.bg-4{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#menu a:hover{
+    color: rgb(86, 99, 110);
+}
+
+#menu li{
+    margin-bottom: 20px;
+}
+
+.line{
+    border-bottom: 5px solid #f1d51bff;
+    width: 40px;
+    transition: width 0.3s;
+    transition-timing-function: linear;
+}
+
+.line:hover{
+    width: 80px;
+}
+
+#menu li.active{
+    width: 80px;
+}
+
+.pages{
+    text-align: justify;
+    line-height: 150%;
+}
+
+.linee{
+    border-bottom: 3px solid rgb(187, 187, 187);
+    width: 100%;
+    margin: 0px;
+}
+
+/* COMMMITEE */
+.teks-3{
+    text-align: justify;
+}
+
+.bg-6{
+    background-color: #3f4850ff;
+    width: 100%;
+    height: 100px;    
+}
+
+#cp{
+    color: #f1d51bff;
+    text-align: right;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo p{
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
+.judull h1{
+    color: #f1d51bff;
+    font-weight: bold;
+}
+
+.container-btn{
+    margin: 0px 200px;
+
+    line-height: 100px;
+}
+
+/* .logo{
+    display: flex;
+} */
+
