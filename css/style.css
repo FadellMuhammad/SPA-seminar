@@ -207,11 +207,10 @@ h5{
     display: flex;
 } */
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 578px) {
     .judull h1{
        text-align: center;
     }
-
     #menu li{
         display: inline;
     }
