@@ -175,8 +175,8 @@
                 <div class="col-sm-3">
                     <div class="menu-tab">
                         <ul id="menu" type="none">
-                            <li class="line active"> <a href="purpose">PURPOSE</a></li>
-                            <li class="line"> <a href="targets">TARGETS</a></li>
+                            <li class="line active"> <a href="purpose" class="clr active">PURPOSE</a></li>
+                            <li class="line"> <a href="targets" class="clr">TARGETS</a></li>
                             <li class="line"><a href="participant">PARTICIPANT</a></li>
                             <li class="line"><a href="output">OUTPUT</a></li>
                         </ul>
@@ -271,6 +271,11 @@
         $('#menu a').on('click', function () {
             $('#menu').find('li.active').removeClass('active');
             $(this).parent('li').addClass('active');
+        });
+
+        $('#menu a').on('click', function () {
+            $('#menu').find('a.active').removeClass('active');
+            $(this).addClass('active');
         });
 
     </script>

@@ -59,6 +59,7 @@ body{
 
 .teks p{
     text-align: justify;
+    margin: 20px;
 }
 
 h5{
@@ -77,6 +78,7 @@ h5{
 
 .teks-2{
     color: white;
+    margin: 0 20px;
     /* padding-top: 50px; */
 }
 
@@ -167,6 +169,7 @@ h5{
 /* COMMMITEE */
 .teks-3{
     text-align: justify;
+    margin: 0 10px;
 }
 
 .bg-6{
@@ -196,8 +199,7 @@ h5{
 }
 
 .container-btn{
-    margin: 0px 200px;
-
+    margin: 0px 100px;
     line-height: 100px;
 }
 
@@ -205,3 +207,35 @@ h5{
     display: flex;
 } */
 
+@media screen and (max-width: 520px) {
+    .judull h1{
+       text-align: center;
+    }
+
+    #menu li{
+        display: inline;
+    }
+    #menu a{
+        font-size: 17px;
+        margin-right: 10px;
+    }
+    #menu{
+        text-align: center;
+    }
+    #menu a:hover{
+        color: #f1d51bff;
+    }
+    .clr{
+        color: black;   
+    }
+    #menu a.active{
+        color: #f1d51bff;
+    }
+    .line{
+        border-bottom: 0;
+    }
+}
+
+#content{
+    margin: 0 30px;    
+}
