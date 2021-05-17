@@ -9,7 +9,7 @@ body{
 }
 
 .navbar img{
-    width: 40px;
+    width:60px;
 }
 
 .left{
@@ -183,14 +183,33 @@ h5{
     text-align: right;
 }
 
+.logo{
+    margin-top: 20px;
+}
+
 .logo img{
     width: 50px;
 }
 
 .logo p{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0px;
     padding: 5px;
+}
+
+.organizer{
+    margin-bottom: 20px;
+}
+
+.bg-7{
+    background-color: rgb(255, 249, 242);
+}
+
+#judul{
+    font-weight: 700;   
+    border-bottom: 2px solid black;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
 }
 
 .judull h1{
@@ -206,8 +225,18 @@ h5{
 /* .logo{
     display: flex;
 } */
+@media screen and (max-width: 958px) {
+    #logo img{
+        display: none;
+    }
+
+    .right{
+        margin: 0;
+    }
+}
 
 @media screen and (max-width: 578px) {
+
     .judull h1{
        text-align: center;
     }
@@ -237,4 +266,8 @@ h5{
 
 #content{
     margin: 0 30px;    
+}
+
+#content-2{
+    margin: 0 10px;
 }
