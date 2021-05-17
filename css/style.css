@@ -180,7 +180,7 @@ h5{
 
 #cp{
     color: #f1d51bff;
-    text-align: right;
+    text-align: center;
 }
 
 .logo{
@@ -218,7 +218,6 @@ h5{
 }
 
 .container-btn{
-    margin: 0px 100px;
     line-height: 100px;
 }
 
